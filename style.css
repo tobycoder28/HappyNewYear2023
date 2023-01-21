@@ -71,3 +71,13 @@ body{
     font-size: 25px;
     font-family: 'Fredoka One', cursive;
 }
+@media screen and (max-width: 412px) {
+/* chỉnh phần tử trong này */
+.wrapper .box-time {
+    position: relative;
+    display: flex;
+    line-height: normal;
+    width: 410px;
+    justify-content: space-between;
+}
+}
